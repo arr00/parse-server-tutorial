@@ -6,16 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arr00/parse-server-tutorial.git"
-  },
-  "author": "Aryeh Greenberg",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arr00/parse-server-tutorial/issues"
-  },
-  "homepage": "https://github.com/arr00/parse-server-tutorial#readme",
   "engines": {
       "node": "8.9.0"
   },
