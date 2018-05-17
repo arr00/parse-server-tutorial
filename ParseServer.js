@@ -4,7 +4,6 @@ var app = express();
 
 var api = new ParseServer({
   databaseURI: process.env.DATABASE_URI, // Connection string for your MongoDB database
-  cloud: process.env.CLOUD_CODE_URL, // Absolute path to your Cloud Code
   appId: process.env.APP_ID,
   masterKey: process.env.MASTER_KEY,
   serverURL: process.env.SERVER_URL,
