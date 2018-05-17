@@ -6,7 +6,6 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_URL, // Absolute path to your Cloud Code
   appId: process.env.APP_ID,
   masterKey: process.env.MASTER_KEY,
-  serverURL: process.env.SERVER_URL,
 });
 // Serve the Parse API on the /parse URL prefix
 app.use('/parse', api);
